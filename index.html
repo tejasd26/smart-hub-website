@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Hub - Smart Locks for Smart People</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav glass-card">
+            <div class="nav-brand">
+                <div class="logo-icon">
+                    <span>SH</span>
+                </div>
+                <span class="brand-text">SMART HUB</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#benefits" class="nav-link">Why Us</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Smart Locks for <span class="gradient-text">Smart People</span></h1>
+                <p class="hero-subtitle">Invest in the future of your home security</p>
+                <p class="hero-description">Experience the convenience and security of advanced smart lock technology with professional installation services that transform your home into a connected, secure space.</p>
+                <div class="hero-actions">
+                    <button class="cta-btn primary" onclick="scrollToSection('contact')">
+                        <span>Get Free Quote</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                    <button class="cta-btn secondary" onclick="scrollToSection('services')">
+                        <span>View Services</span>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card">
+                    <img src="smart-lock copy.png" alt="Smart Lock" class="lock-icon">
+                    <div class="pulse-ring"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our <span class="gradient-text">Services</span></h2>
+                <p class="section-subtitle">Professional installation of cutting-edge smart lock technology</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">🔐</div>
+                    <h3 class="service-title">Biometric Lock Installation</h3>
+                    <p class="service-description">Advanced fingerprint recognition technology for ultimate security and convenience</p>
+                    <div class="service-glow"></div>
+                </div>
+                <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">📱</div>
+                    <h3 class="service-title">Smart Lock Installation</h3>
+                    <p class="service-description">Intelligent locks with remote access and monitoring capabilities</p>
+                    <div class="service-glow"></div>
+                </div>
+                <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">🔢</div>
+                    <h3 class="service-title">Keypad Lock Installation</h3>
+                    <p class="service-description">Digital keypad entry systems for secure, code-based access control</p>
+                    <div class="service-glow"></div>
+                </div>
+                <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">📶</div>
+                    <h3 class="service-title">Bluetooth & WiFi Lock Installation</h3>
+                    <p class="service-description">Connected locks with smartphone control and wireless connectivity</p>
+                    <div class="service-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose <span class="gradient-text">Smart Hub?</span></h2>
+                <p class="section-subtitle">Your trusted partner in home security solutions</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card glass-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="benefit-icon">👨‍🔧</div>
+                    <h3 class="benefit-title">Professional Installation</h3>
+                    <p class="benefit-description">Expert technicians ensure perfect setup</p>
+                </div>
+                <div class="benefit-card glass-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="benefit-icon">🕐</div>
+                    <h3 class="benefit-title">24/7 Support</h3>
+                    <p class="benefit-description">Round-the-clock customer assistance</p>
+                </div>
+                <div class="benefit-card glass-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="benefit-icon">🛡️</div>
+                    <h3 class="benefit-title">Warranty Guaranteed</h3>
+                    <p class="benefit-description">Full warranty on all products and services</p>
+                </div>
+                <div class="benefit-card glass-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="benefit-icon">⭐</div>
+                    <h3 class="benefit-title">Expert Team</h3>
+                    <p class="benefit-description">Certified smart lock specialists</p>
+                </div>
+                <div class="benefit-card glass-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="benefit-icon">💰</div>
+                    <h3 class="benefit-title">Affordable Pricing</h3>
+                    <p class="benefit-description">Competitive rates for premium service</p>
+                </div>
+                <div class="benefit-card glass-card" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="benefit-icon">✅</div>
+                    <h3 class="benefit-title">Quality Assurance</h3>
+                    <p class="benefit-description">Premium products from trusted brands</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+                <p class="section-subtitle">Ready to secure your home? Contact us today</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card glass-card" data-aos="slide-right" data-aos-delay="100">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h3 class="contact-title">Phone</h3>
+                            <a href="tel:+919594647960" class="contact-link">+91 9594647960</a>
+                        </div>
+                        <div class="contact-action">
+                            <a href="tel:+919594647960" class="action-btn call-btn">
+                                <span>Call Now</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card glass-card" data-aos="slide-right" data-aos-delay="200">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h3 class="contact-title">Email</h3>
+                            <a href="mailto:inquiry.smarthub@gmail.com" class="contact-link">inquiry.smarthub@gmail.com</a>
+                        </div>
+                        <div class="contact-action">
+                            <a href="mailto:inquiry.smarthub@gmail.com" class="action-btn email-btn">
+                                <span>Send Email</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card glass-card" data-aos="slide-right" data-aos-delay="300">
+                        <div class="contact-icon">💬</div>
+                        <div class="contact-details">
+                            <h3 class="contact-title">WhatsApp</h3>
+                            <span class="contact-text">Quick Response</span>
+                        </div>
+                        <div class="contact-action">
+                            <a href="https://wa.me/919594647960" target="_blank" class="action-btn whatsapp-btn">
+                                <span>WhatsApp</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card glass-card" data-aos="slide-right" data-aos-delay="400">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h3 class="contact-title">Location</h3>
+                            <span class="contact-text">Girgaon, Mumbai - India</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card glass-card" data-aos="slide-right" data-aos-delay="500">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h3 class="contact-title">Social Media</h3>
+                            <span class="contact-text">@SmartHub_HomeAutomation</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cta-section" data-aos="slide-left" data-aos-delay="300">
+                    <div class="cta-card glass-card">
+                        <div class="cta-content">
+                            <h3 class="cta-title">Ready to Get Started?</h3>
+                            <p class="cta-description">Get a free consultation and quote for your smart lock installation project. Our experts are ready to help secure your home.</p>
+                            <div class="cta-buttons">
+                                <a href="tel:+919594647960" class="cta-btn primary">
+                                    <span>Call Now</span>
+                                    <div class="btn-glow"></div>
+                                </a>
+                                <a href="mailto:inquiry.smarthub@gmail.com" class="cta-btn secondary">
+                                    <span>Send Email</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <span>SH</span>
+                        </div>
+                        <span class="brand-text">SMART HUB</span>
+                    </div>
+                    <p class="footer-tagline">Smart Locks for Smart People</p>
+                    <div class="footer-contact">
+                        <a href="tel:+919594647960" class="footer-link">+91 9594647960</a>
+                        <a href="mailto:inquiry.smarthub@gmail.com" class="footer-link">inquiry.smarthub@gmail.com</a>
+                        <span class="footer-text">Girgaon, Mumbai - India</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2025 Smart Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
